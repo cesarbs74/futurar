@@ -4943,7 +4943,7 @@ tbody.collapse.show {
   border-radius: 0.3rem;
   background-image: url(../img/futurar2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 80%;
 }
 
 @media (min-width: 576px) {
