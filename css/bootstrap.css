@@ -4936,15 +4936,23 @@ tbody.collapse.show {
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
   background-position: center center;
   border-radius: 0.3rem;
   background-image: url(../img/futurar2.jpg);
   background-repeat: no-repeat;
-  background-size: auto 100% 80%;
+  background-size:cover 80% 60%;
 }
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 
 @media (min-width: 576px) {
   .jumbotron {
