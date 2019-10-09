@@ -4946,13 +4946,6 @@ tbody.collapse.show {
   background-size:cover 80% 60%;
 }
 
-.parallax {
-  min-height: 500px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
 
 @media (min-width: 576px) {
   .jumbotron {
