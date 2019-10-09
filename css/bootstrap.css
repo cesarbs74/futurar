@@ -423,6 +423,7 @@ h6, .h6 {
 .subtitle {
   color: #000;
   font-size: 20px;
+  line-height: 0.5;
   text-shadow: 1px 1px #ffffff;
 }
 
