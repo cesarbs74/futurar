@@ -173,12 +173,12 @@ a:hover {
 }
 
 a:not([href]):not([tabindex]) {
-  color: #000;
+  color: inherit;
   text-decoration: none;
 }
 
 a:not([href]):not([tabindex]):hover, a:not([href]):not([tabindex]):focus {
-  color: #000;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -373,6 +373,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 2rem;
+
 }
 
 h3, .h3 {
@@ -423,10 +424,16 @@ h6, .h6 {
 .subtitle {
   color: #000;
   font-size: 20px;
-  line-height: 0.5;
+  line-height: 1.2;
   text-shadow: 1px 1px #ffffff;
 }
 
+.paragraph {
+  font:inherit;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -629,9 +636,7 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+
 }
 
 .col {
