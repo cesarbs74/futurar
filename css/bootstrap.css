@@ -433,6 +433,7 @@ h6, .h6 {
   color: #000;
   font-size: 15px;
   line-height: 1.5;
+
 }
 hr {
   margin-top: 1rem;
@@ -2854,10 +2855,10 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-success {
-  color: #28a745;
+  color: #e6ac00;
   background-color: transparent;
   background-image: none;
-  border-color: #28a745;
+  border-color: #e6ac00;
 }
 
 .btn-outline-success:hover {
